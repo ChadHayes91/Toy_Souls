@@ -25,7 +25,7 @@ State transitions are almost all caused by a geometric test. For example, the te
   <li> Let vector B be the resulting vector after the subtraction of the player's current position and the agent's position (subtraction of two points). Normalize vector B. </li>
   <li> Calculate the dot product of vector A and B. </li>
   <li> The dot product is also equal to the magnitude of A times the magnitude of B times the cosine between the vectors A and B. Since vectors A and B both have a magnitude of one (because we normalized these vectors), the resulting dot product is equal to the cosine of the angle between vectors A and B. </li>
-  <li> Since the cosine of zero (meaning there is no angle between the two vectors, or they're in the same direction) is one, if the result is greater than a value around 0.7, then the agent should enter the attack state (assuming the agent is in melee range from a different test). This means that the angle between the agent and the player is rather small.
+  <li> Since the cosine of zero (meaning there is no angle between the two vectors, or they're in the same direction) is one, if the result is greater than a value around 0.7, then the agent should enter the attack state (assuming the agent is in melee range from a different test). This means that the angle between the agent and the player is rather small. </li>
   
 </ol>
 <br>

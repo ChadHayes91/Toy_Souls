@@ -31,3 +31,11 @@ State transitions are almost all caused by a geometric test. For example, the te
 
 
 ## Gameplay Video
+
+#### Part 1 (main level, with teddy bear NPCs):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UQ2wCOCAdTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Part 2 (final level, showdown with boss)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2TnqBdnWUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

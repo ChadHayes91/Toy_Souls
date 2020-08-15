@@ -28,7 +28,7 @@ State transitions are almost all caused by a geometric test. For example, the te
   <li> Since the cosine of zero (meaning there is no angle between the two vectors, or they're in the same direction) is one, if the result is greater than a value around 0.7, then the agent should enter the attack state (assuming the agent is in melee range from a different test). This means that the angle between the agent and the player is rather small.
   
 </ol>
-
+<br>
 
 ## Gameplay Video
 

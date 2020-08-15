@@ -9,7 +9,7 @@ Toy Souls is a prototype Dark Souls like game where the player is a child's toy 
 
 This project was a group project for CS 6457 Video Game Design; my individual responsibility for this project were the NPC models, animations, and behavior. The 3D models used in this project were free assets from various websites, and the animations were created using Mixamo.
 <br>
-NPC behavior was programmed using a finite state machine; using an enumeration data structure to control the different states for an enemy NPC prefab. More specifically, the different possible states are as follows:
+NPC behavior was programmed using a finite state machine; using an enumeration data structure to control the different states for an enemy NPC prefab. More specifically, the more interesting possible states (excluding things like idle and dead states) are as follows:
 <ol>
   <li> Wander: an NPC agent picks a random location in a very large circle of the player's current location that is still within the NavMesh as a pathfinding destination (a destination is picked every predefined number of seconds), and the agent slowly walks to that location. If the agent arrives at the destination before the timer ends (and no other state is triggered), the agent waits at that location playing an idle animation. Having the wandering state's destination somewhat in the direction of the player's location guarantees that the NPCs won't get unlucky and the player never encounters any enemies. </li>
   <li> Chase: when the NPC agent is close to the player (using Euclidean distance between the two points: the player and agent), but not close enough to the player to melee him, the agent runs full speed towards the player (using NavMesh path planning). </li>

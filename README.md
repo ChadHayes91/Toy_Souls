@@ -15,6 +15,8 @@ NPC behavior was programmed using a finite state machine using an enumeration da
 * Shoot: the red NPCs will occasionally (with a cooldown) shoot a fireball at the player's current location. The projectile moves slow enough so that the player has enough time to move out of the way if the player moves immediately. This is done by instantiating a fireball object (which was created using Unity's particle system) with a constant velocity in the direction of the normalized vector created by the subtraction of the two geometric points: the player's center and the NPC's hands.
 * Attack: when the agent reaches melee range of the player and the angle between the player and agent is acceptable, the agent tries to perform a melee attack. After attacking, the agent returns to the chase state.
 
+Note that the behaviors outlined above are for the Teddy Bear NPCs; the behavior for the boss is similar, but all states are slightly different and some states are excluded entirely (like the Wander state for example).
+
 State transitions are almost all caused by a geometric test. For example, the test guaranteeing that the angle between the player and agent for the attack state is as follows:
 <br>
 

@@ -18,7 +18,7 @@ NPC behavior was programmed using a finite state machine; using an enumeration d
 State transitions are almost all caused by a geometric test. For example, the test guaranteeing that the angle between the player and agent for the attack state is as follows:
 <br>
 
-* Let vector $$A$$ be the forward facing vector of the agent (Unity provides a function to get this data). Normalize vector A.
+* Let vector $$A$$ be the forward facing vector of the agent (Unity provides a function to get this data). Normalize vector $$A$$.
 * Let vector $$B$$ be the resulting vector after the subtraction of the player's current position and the agent's position (subtraction of two points). Normalize vector $$B$$.
 * Calculate the dot product of vector $$A$$ and $$B$$.
 * The dot product is also equal to the magnitude of $$A$$times the magnitude of $$B$$ times the cosine between the vectors $$A$$ and $$B$$, or $$A \cdot B = \|A\|\|B\|cos(\theta)$$. Since vectors $$A$$ and $$B$$ both have a magnitude of one (because we normalized these vectors), the resulting dot product is equal to the cosine of the angle between vectors $$A$$ and $$B$$.

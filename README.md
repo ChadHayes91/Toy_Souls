@@ -1,3 +1,5 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ## Code, Project Description, and Story Summary
 Code & Executable: [https://www.dropbox.com/s/xj6134sxdskmit3/TeamOOBException_ToysSouls.7z?dl=0](https://www.dropbox.com/s/xj6134sxdskmit3/TeamOOBException_ToysSouls.7z?dl=0)
 
